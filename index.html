@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Login Form</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      input {
+        display: block;
+        margin-bottom: 16px;
+        width: 200px;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="login-form">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" data-test="email-field" required />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" data-test="password-field" required />
+      <button type="submit" data-test="login-button">Login</button>
+    </form>
+    <script>
+      document.querySelector('button[type="submit"]').addEventListener('click', function(event) {
+        event.preventDefault()
+        document.body.innerHTML = "<h1>You\'re now logged in!</h1>"
+      }, false)
+    </script>
+  </body>
+</html>
