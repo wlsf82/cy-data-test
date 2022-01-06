@@ -1,4 +1,5 @@
 {
+  "baseUrl": "https://cy-data-test.s3.eu-central-1.amazonaws.com",
   "fixturesFolder": false,
   "pluginsFile": false
 }
