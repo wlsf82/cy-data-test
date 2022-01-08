@@ -1,5 +1,5 @@
 beforeEach(() => {
-  cy.visit('../index.html')
+  cy.visit('./index.html')
 })
   
 it('successfully logs in', () => {
