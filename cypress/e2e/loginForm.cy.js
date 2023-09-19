@@ -3,8 +3,8 @@ beforeEach(() => {
 })
   
 it('successfully logs in', () => {
-  const email = Cypress.env('userEmail')
-  const password = Cypress.env('userPassword')
+  const email = Cypress.env('USER_EMAIL')
+  const password = Cypress.env('USER_PASSWORD')
 
   cy.dataTest('email-field').type(email)
   cy.dataTest('password-field').type(password, { log: false })

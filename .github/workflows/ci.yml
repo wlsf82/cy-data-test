@@ -8,3 +8,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
