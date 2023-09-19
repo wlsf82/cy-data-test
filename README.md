@@ -1,5 +1,7 @@
 # cy-data-test
 
+[![main](https://github.com/wlsf82/cy-data-test/actions/workflows/ci.yml/badge.svg)](https://github.com/wlsf82/cy-data-test/actions)
+
 Sample project to demonstrate a `cy.dataTest` Cypress custom command.
 
 ## Pre-requirements
