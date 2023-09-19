@@ -16,6 +16,6 @@
   "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.3.1"
+    "cypress": "^13.2.0"
   }
 }
